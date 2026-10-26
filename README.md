@@ -1,3 +1,5 @@
+English Version
+
 Yamaha YMF754 Audio Driver 
 
 A native x86_64 KEXT audio driver for the Yamaha YMF754 sound card. Built from scratch for low latency and broad compatibility. 
@@ -19,7 +21,7 @@ The project is configured for compilation using Xcode 4.2. Clone the repository 
 
 =======================================================================
 
-Русский.
+Русская версия
 
 Драйвер легендарной звуковой карты Yamaha YMF754
 Нативный аудиодрайвер (KEXT) под архитектуру x86_64 для звуковой карты Yamaha YMF754. Написан с нуля для минимальной задержки и стабильной работы.
