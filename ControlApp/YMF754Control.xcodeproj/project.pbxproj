@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 46;
+objects = {
+
+/* Begin PBXBuildFile section */
+C10000000000000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* main.m */; };
+C10000000000000000000004 /* YMF754ControlAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000005 /* YMF754ControlAccess.m */; };
+C10000000000000000000002 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* Cocoa.framework */; };
+C10000000000000000000003 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20000000000000000000004 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+C20000000000000000000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+C20000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+C20000000000000000000005 /* YMF754ControlAccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "../UserSupport/YMF754ControlAccess.m"; sourceTree = "<group>"; };
+C20000000000000000000006 /* YMF754ControlAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "../UserSupport/YMF754ControlAccess.h"; sourceTree = "<group>"; };
+C20000000000000000000003 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+C20000000000000000000004 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+C30000000000000000000001 /* YMF754Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMF754Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+C40000000000000000000001 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+C10000000000000000000002 /* Cocoa.framework in Frameworks */,
+C10000000000000000000003 /* IOKit.framework in Frameworks */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+C50000000000000000000001 = {
+isa = PBXGroup;
+children = (
+C50000000000000000000002 /* ControlApp */,
+C50000000000000000000003 /* Frameworks */,
+C50000000000000000000004 /* Products */,
+);
+sourceTree = "<group>";
+};
+C50000000000000000000002 /* ControlApp */ = {
+isa = PBXGroup;
+children = (
+C20000000000000000000001 /* main.m */,
+C20000000000000000000002 /* Info.plist */,
+C20000000000000000000005 /* YMF754ControlAccess.m */,
+C20000000000000000000006 /* YMF754ControlAccess.h */,
+);
+sourceTree = "<group>";
+};
+C50000000000000000000003 /* Frameworks */ = {
+isa = PBXGroup;
+children = (
+C20000000000000000000003 /* Cocoa.framework */,
+C20000000000000000000004 /* IOKit.framework */,
+);
+name = Frameworks;
+sourceTree = "<group>";
+};
+C50000000000000000000004 /* Products */ = {
+isa = PBXGroup;
+children = (
+C30000000000000000000001 /* YMF754Control.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+C60000000000000000000001 /* YMF754Control */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = C70000000000000000000002 /* Build configuration list for PBXNativeTarget "YMF754Control" */;
+buildPhases = (
+C80000000000000000000001 /* Sources */,
+C40000000000000000000001 /* Frameworks */,
+C90000000000000000000001 /* Resources */,
+);
+buildRules = ();
+dependencies = ();
+name = YMF754Control;
+productName = YMF754Control;
+productReference = C30000000000000000000001 /* YMF754Control.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+CC0000000000000000000001 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastUpgradeCheck = 0420;
+};
+buildConfigurationList = C70000000000000000000001 /* Build configuration list for project "YMF754Control" */;
+compatibilityVersion = "Xcode 3.2";
+developmentRegion = English;
+hasScannedForEncodings = 0;
+knownRegions = (en, Base);
+mainGroup = C50000000000000000000001;
+productRefGroup = C50000000000000000000004 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+C60000000000000000000001 /* YMF754Control */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+C90000000000000000000001 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = ();
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+C80000000000000000000001 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+C10000000000000000000001 /* main.m in Sources */,
+C10000000000000000000004 /* YMF754ControlAccess.m in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+CA0000000000000000000001 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ARCHS = x86_64;
+GCC_C_LANGUAGE_STANDARD = gnu99;
+GCC_WARN_ABOUT_RETURN_TYPE = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+SDKROOT = macosx10.6;
+};
+name = Debug;
+};
+CA0000000000000000000002 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ARCHS = x86_64;
+GCC_C_LANGUAGE_STANDARD = gnu99;
+GCC_WARN_ABOUT_RETURN_TYPE = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+SDKROOT = macosx10.6;
+};
+name = Release;
+};
+CA0000000000000000000003 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ARCHS = x86_64;
+CLANG_ENABLE_OBJC_ARC = NO;
+GCC_OBJC_GC = unsupported;
+GCC_VERSION = com.apple.compilers.llvmgcc42;
+INFOPLIST_FILE = Info.plist;
+MACOSX_DEPLOYMENT_TARGET = 10.6;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = macosx10.6;
+WRAPPER_EXTENSION = app;
+};
+name = Debug;
+};
+CA0000000000000000000004 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ARCHS = x86_64;
+CLANG_ENABLE_OBJC_ARC = NO;
+GCC_OBJC_GC = unsupported;
+GCC_VERSION = com.apple.compilers.llvmgcc42;
+INFOPLIST_FILE = Info.plist;
+MACOSX_DEPLOYMENT_TARGET = 10.6;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = macosx10.6;
+WRAPPER_EXTENSION = app;
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+C70000000000000000000001 /* Build configuration list for project "YMF754Control" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+CA0000000000000000000001 /* Debug */,
+CA0000000000000000000002 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+C70000000000000000000002 /* Build configuration list for PBXNativeTarget "YMF754Control" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+CA0000000000000000000003 /* Debug */,
+CA0000000000000000000004 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = CC0000000000000000000001 /* Project object */;
+}

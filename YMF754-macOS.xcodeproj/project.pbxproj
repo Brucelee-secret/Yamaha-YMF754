@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* YMFPCIAudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* YMFPCIAudioDevice.cpp */; };
+		A10000000000000000000002 = {isa = PBXBuildFile; fileRef = A20000000000000000000005; };
+		A10000000000000000000003 = {isa = PBXBuildFile; fileRef = A20000000000000000000007; };
+A10000000000000000000004 = {isa = PBXBuildFile; fileRef = A20000000000000000000009; };
+A10000000000000000000005 = {isa = PBXBuildFile; fileRef = A20000000000000000000011; };
+A10000000000000000000006 = {isa = PBXBuildFile; fileRef = A20000000000000000000013; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* YMFPCIAudioDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIAudioDevice.cpp; sourceTree = "<group>"; };
+		A20000000000000000000002 /* YMFPCIAudioDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIAudioDevice.h; sourceTree = "<group>"; };
+		A20000000000000000000003 /* YMFPCIRegisters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIRegisters.h; sourceTree = "<group>"; };
+		A20000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIHardware.cpp; sourceTree = "<group>"; };
+		A20000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIHardware.h; sourceTree = "<group>"; };
+		A20000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIFirmware.cpp; sourceTree = "<group>"; };
+		A20000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIFirmware.h; sourceTree = "<group>"; };
+A20000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIAudioEngine.cpp; sourceTree = "<group>"; };
+A20000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIAudioEngine.h; sourceTree = "<group>"; };
+A20000000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIPCM.cpp; sourceTree = "<group>"; };
+A20000000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMFPCIPCM.h; sourceTree = "<group>"; };
+A20000000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YMFPCIDMA.cpp; sourceTree = "<group>"; };
+		A30000000000000000000001 /* YMFPCI.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.kext; includeInIndex = 0; path = YMFPCI.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000002 /* Driver */,
+				A50000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* YMFPCIAudioDevice.cpp */,
+				A20000000000000000000002 /* YMFPCIAudioDevice.h */,
+				A20000000000000000000003 /* YMFPCIRegisters.h */,
+				A20000000000000000000004 /* Info.plist */,
+				A20000000000000000000005,
+				A20000000000000000000006,
+				A20000000000000000000007,
+				A20000000000000000000008,
+A20000000000000000000009,
+A20000000000000000000010,
+A20000000000000000000011,
+A20000000000000000000012,
+A20000000000000000000013,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* YMFPCI.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* YMFPCI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "YMFPCI" */;
+			buildPhases = (
+				A80000000000000000000001 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A90000000000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = YMFPCI;
+			productName = YMFPCI;
+			productReference = A30000000000000000000001 /* YMFPCI.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "YMF754-macOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A50000000000000000000001;
+			productRefGroup = A50000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* YMFPCI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* YMFPCIAudioDevice.cpp in Sources */,
+				A10000000000000000000002,
+				A10000000000000000000003,
+A10000000000000000000004,
+A10000000000000000000005,
+A10000000000000000000006,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "KERNEL=1";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				SYSTEM_HEADER_SEARCH_PATHS = ("$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers");
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Driver/Info.plist;
+				INSTALL_PATH = /System/Library/Extensions;
+				KERNEL_EXTENSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-mkernel -fapple-kext";
+				OTHER_CPLUSPLUSFLAGS = "-mkernel -fapple-kext -fno-exceptions -fno-rtti";
+				PRODUCT_NAME = YMFPCI;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		AB0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "KERNEL=1";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				SYSTEM_HEADER_SEARCH_PATHS = ("$(SDKROOT)/System/Library/Frameworks/Kernel.framework/Headers");
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Driver/Info.plist;
+				INSTALL_PATH = /System/Library/Extensions;
+				KERNEL_EXTENSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-mkernel -fapple-kext";
+				OTHER_CPLUSPLUSFLAGS = "-mkernel -fapple-kext -fno-exceptions -fno-rtti";
+				PRODUCT_NAME = YMFPCI;
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		AC0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "YMF754-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0000000000000000000001 /* Debug */,
+				AC0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "YMFPCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000000000000000000001 /* Debug */,
+				AB0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
